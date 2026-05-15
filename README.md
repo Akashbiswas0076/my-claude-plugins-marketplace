@@ -36,3 +36,18 @@ hello: {
 The repository has been pushed to GitHub at:
 
 https://github.com/Akashbiswas0076/my-claude-plugins-marketplace
+
+## Usage
+
+To use the hello-world plugin in Claude Code, install it as a plugin and invoke the `hello` skill with an optional `name` parameter.
+
+This repository includes:
+
+- `marketplace.json` — Marketplace manifest with plugin definitions
+- `plugins/hello-world/plugin.json` — Plugin metadata
+- `plugins/hello-world/index.js` — Plugin implementation
+- `plugins/hello-world/README.md` — Usage documentation for the plugin
+
+## License
+
+This project is licensed under the MIT License. See `LICENSE` for details.
