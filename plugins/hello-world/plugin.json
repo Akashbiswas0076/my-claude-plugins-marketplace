@@ -1,0 +1,25 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "A simple hello world plugin for demonstration",
+  "author": {
+    "name": "User",
+    "email": "user@example.com"
+  },
+  "main": "index.js",
+  "skills": [
+    {
+      "name": "hello",
+      "description": "Say hello",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Name to greet"
+          }
+        }
+      }
+    }
+  ]
+}
