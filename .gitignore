@@ -1,0 +1,32 @@
+# Ignore temporary editor and IDE files
+Untitled-1.json
+.vscode/
+.DS_Store
+
+# Node dependencies and logs
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# MacOS
+.AppleDouble
+.LSOverride
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Misc
+*.swp
+*.swo
+*.tmp
+*~
